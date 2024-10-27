@@ -1,0 +1,9 @@
+.section_logos {
+  background-color: black;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 43px 0 43px 0;
+}

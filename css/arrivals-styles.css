@@ -1,0 +1,81 @@
+.cloth-item_image {
+  background-color: #f0eeed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  width: 295px;
+  height: 298px;
+  border-radius: 20px;
+}
+
+.container-arrivals {
+  padding: 75px 0 64px 0;
+}
+
+.items-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-image1 {
+  background-image: url(../img/cloth/shirt-1.png);
+}
+
+.item-image2 {
+  background-image: url(../img/cloth/jeans-1.png);
+}
+
+.item-image3 {
+  background-image: url(../img/cloth/shirt-2.png);
+}
+
+.item-image4 {
+  background-image: url(../img/cloth/shirt-3.png);
+}
+
+.view-all-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  padding: 15px 80px;
+  color: black;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.product-item-wrap {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  gap: 16px;
+  padding: 55px 0 36px 0;
+}
+
+.new-arrivals-h2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.name-item {
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.price-item {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.raiting-item {
+  display: flex;
+  gap: 5px;
+}
+
+.description-wrap {
+  display: flex;
+  flex-flow: column;
+  justify-content: left;
+  gap: 8px;
+}
