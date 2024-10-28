@@ -1,0 +1,70 @@
+.container-dress-style {
+  max-width: 1240px;
+  background-color: #f0f0f0;
+  padding: 70px 64px 76px 64px;
+  border-radius: 40px;
+}
+
+.dress-style-h2 {
+  margin: 0 auto 64px auto;
+  text-align: center;
+}
+
+.dress-styles-grid {
+  display: grid;
+  grid-template-rows: repeat(2, 280px);
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
+  justify-content: space-between;
+  gap: 20px;
+  grid-template-areas:
+    "one two two"
+    "three three four";
+}
+.grid-item {
+  background-color: white;
+  border-radius: 20px;
+  padding: 28px 0 0 36px;
+}
+/* Style for grid items*/
+#one {
+  grid-area: one;
+  background-image: url(../img/dress-style-section/dress-style-1.jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 220%;
+  background-position: top 40% right 42%;
+}
+
+#two {
+  grid-area: two;
+  background-image: url(../img/dress-style-section/dress-style-2.jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 165%;
+  background-position: top 23% right 120%;
+}
+
+#three {
+  grid-area: three;
+  background-image: url(../img/dress-style-section/dress-style-3.jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: top 43% right 144%;
+}
+
+#four {
+  grid-area: four;
+  background-image: url(../img/dress-style-section/dress-style-4.jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: top 45% right 150%;
+}
+
+.dress-styles-text {
+  font-family: Rubik;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+}

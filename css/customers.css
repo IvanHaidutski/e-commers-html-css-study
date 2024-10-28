@@ -1,0 +1,61 @@
+.container-customers {
+  padding: 80px 0 80px 0;
+}
+
+.review-item {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 28px 32px 50px 32px;
+}
+
+.name-wrap {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.review-text {
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 131%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.name {
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+}
+
+.customers-h2 {
+  margin-bottom: 40px;
+}
+
+.mrg-15 {
+  margin-bottom: 15px;
+}
+
+.review-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.arrow-h2-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-wrap {
+  display: flex;
+  gap: 20px;
+}
+
+.arrow-icon {
+  width: 24px;
+}
