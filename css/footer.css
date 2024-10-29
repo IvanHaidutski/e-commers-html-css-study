@@ -1,0 +1,86 @@
+.section_footer {
+  background-color: #f0f0f0;
+  padding: 140px 0 140px 0;
+}
+
+.container-footer {
+  background-color: #f0f0f0;
+}
+
+.logo-section {
+  display: flex;
+  flex-flow: column;
+  max-width: 248px;
+}
+
+.icons-footer-wrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.menu-footer-list {
+  list-style: none;
+}
+
+.menu-list {
+  display: flex;
+  flex-flow: column;
+  gap: 26px;
+}
+
+.menu-item {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.title {
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.menu-footer-list {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.footer-text {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.devider {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.payments-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.footer-bottom-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe-subsections {
+  background-color: black;
+  border-radius: 20px;
+}
+
+.subscribe-h3 {
+  color: #f0f0f0;
+}

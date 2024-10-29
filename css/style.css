@@ -6,6 +6,7 @@
 @import "top-selling.css";
 @import "dress-style.css";
 @import "customers.css";
+@import "footer.css";
 
 /* Убираем внутренние отступы */
 ul[class],
@@ -59,7 +60,15 @@ h2 {
   font-size: 48px;
   font-style: normal;
   font-weight: 900;
-  line-height: 64px; /* 100% */
+  line-height: 48px; /* 100% */
+}
+
+h3 {
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px; /* 100% */
 }
 
 button {
@@ -91,4 +100,8 @@ button {
 
 .marg-r-40 {
   margin-right: 40px;
+}
+
+a {
+  text-decoration: none;
 }
