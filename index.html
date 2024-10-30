@@ -14,20 +14,29 @@
           <img src="img/SHOP.CO.svg" alt="shop.co logo svg" class="logo_nav" />
           <!-- Menu list -->
           <ul class="list_nav">
-            <li>Shop</li>
-            <li>On Sale</li>
-            <li>New Arrivals</li>
-            <li>Brands</li>
+            <li><a href="#" class="menu-nav-item">Shop</a></li>
+            <li><a href="#" class="menu-nav-item">On Sale</a></li>
+            <li><a href="#" class="menu-nav-item">New Arrivals</a></li>
+            <li><a href="#" class="menu-nav-item">Brands</a></li>
           </ul>
           <!-- Search bar-->
-          <div class="search-area_nav">
+          <form action="#" class="form-nav">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              class="search-area_nav"
+              placeholder="Search for products..."
+            />
+          </form>
+          <!-- <div class="search-area_nav">
             <img
               src="img/search-icon.svg"
               alt="search-icon"
               class="search-icon_nav"
             />
             <div class="search-placeholder-text">Search for products...</div>
-          </div>
+          </div> -->
           <!-- Icons cart and user -->
           <div class="nav-icons_wrapper">
             <img
@@ -359,7 +368,16 @@
       <div class="container container-footer">
         <!-- Subsection SUBSCRIBE -->
         <div class="subscribe-subsections">
-          <h3 class="subscribe-h3">STAY up to date about our latest offers</h3>
+          <h3 class="subscribe-h3">STAY UP TO DATE ABOUT OUR LATEST OFFERS</h3>
+          <form action="#" class="subscribe-form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email address"
+            />
+            <button class="btn email-sent">Subscribe to Newsletter</button>
+          </form>
         </div>
 
         <div class="footer-wrapper">
