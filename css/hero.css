@@ -38,24 +38,6 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
-/* .hero-btn::before {
-  position: absolute;
-  top: -90%;
-  left: -163%;
-  content: "";
-  width: 500px;
-  height: 300px;
-  background-color: rgb(50, 50, 50);
-  clip-path: circle(20%);
-  transition: clip-path 0.5s ease-in-out;
-  z-index: -1;
-} */
-
-/* .hero-btn:hover::before {
-  clip-path: circle(200%);
-  background-color: #f2f0f1;
-} */
-
 .numbers-hero_wrap {
   display: flex;
   gap: 32px;
@@ -92,14 +74,28 @@
   right: -6%;
 }
 
+@keyframes stars {
+  from {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.5);
+  }
+}
+
 .star-icon-1 {
   position: absolute;
   top: 8%;
   right: -3%;
+  animation: 5s stars infinite ease-in-out;
 }
 
 .star-icon-2 {
   position: absolute;
   top: 45%;
   right: 40%;
+  animation: 5s stars infinite ease-in-out;
 }

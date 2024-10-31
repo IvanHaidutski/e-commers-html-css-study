@@ -1,9 +1,48 @@
-.section_logos {
-  background-color: black;
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .container-logo {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
   padding: 43px 0 43px 0;
+  animation: 35s slide infinite linear;
+}
+
+.wrapper-anim-logos {
+  position: relative;
+}
+.section_logos {
+  background-color: black;
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.section_logos:before,
+.section_logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 124px;
+  content: "";
+  z-index: 2;
+}
+
+.section_logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+}
+
+.section_logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+}
+.container-logo:hover {
+  animation-play-state: paused;
 }
